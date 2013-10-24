@@ -1,0 +1,43 @@
+
+/* ---- FRAMEWORK ---- */
+
+li.blog-post, li.repository, li.flink {
+	list-style-type: none;
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	background-size: Auto 16px;
+	margin-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 24px; 
+}
+
+/* ---- POPULAR ---- */
+
+li.facebook { background-image: url(http://facebook.com/favicon.ico); }
+li.twitter 	{ background-image: url(http://twitter.com/favicon.ico); }
+li.youtube 	{ background-image: url(http://youtube.com/favicon.ico); }
+li.github 	{ background-image: url(http://github.com/favicon.ico); }
+li.skype	{ background-image: url(http://skype.com/favicon.ico); }
+
+/* ---- CUSTOM ---- */
+
+li.kirupa				{ background-image: url(http://kirupa.com/orange.ico); }
+li.jacksondunstan.com	{ background-image: url(http://jacksondunstan.com/favicon.ico); }
+li.kernel.org 			{ background-image: url(http://www.kernel.org/favicon.ico); }
+
+li.stackexchange	{ background-image: url(http://cdn.sstatic.net/stackexchange/img/favicon.ico); }
+li.stackoverflow	{ background-image: url(http://cdn.sstatic.net/stackoverflow/img/favicon.ico); }
+li.askubuntu		{ background-image: url(http://cdn.sstatic.net/askubuntu/img/favicon.ico); }
+li.gaming-stackexchange	{ background-image: url(http://cdn.sstatic.net/gaming/img/favicon.ico); }
+
+/* ---- MINE ---- */
+
+li.blog-post {
+	background-image: url(http://blog.iqandreas.com/favicon.png);
+}
+
+li.repository {
+	background-image: url(http://github.com/favicon.ico);
+}
+
