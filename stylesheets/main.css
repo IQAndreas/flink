@@ -1,0 +1,14 @@
+
+/* ---- FRAMEWORK ---- */
+
+li.flink {
+	list-style-type: none;
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	background-size: Auto 16px;
+	margin-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 24px; 
+}
+

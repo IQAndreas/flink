@@ -1,0 +1,10 @@
+@import url(main.css);
+
+/* TODO: Account for .se, .co.uk, etc */
+li.google.com	{ background-image: url(); }
+li.facebook.com	{ background-image: url(http://facebook.com/favicon.ico); }
+li.twitter.com 	{ background-image: url(http://twitter.com/favicon.ico); }
+li.youtube.com 	{ background-image: url(http://youtube.com/favicon.ico); }
+li.skype.com	{ background-image: url(http://skype.com/favicon.ico); }
+
+
