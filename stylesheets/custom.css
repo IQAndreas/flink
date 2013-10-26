@@ -2,13 +2,14 @@
 
 /* ---- CUSTOM ---- */
 
-li.kirupa.com			{ background-image: url(http://kirupa.com/orange.ico); }
-li.jacksondunstan.com	{ background-image: url(http://jacksondunstan.com/favicon.ico); }
-li.kernel.org 			{ background-image: url(http://www.kernel.org/favicon.ico); }
-li.github.com			{ background-image: url(http://github.com/favicon.ico); }
+li.kirupa_com			{ background-image: url(http://kirupa.com/orange.ico); }
+li.jacksondunstan_com	{ background-image: url(http://jacksondunstan.com/favicon.ico); }
+li.kernel_org 			{ background-image: url(http://www.kernel.org/favicon.ico); }
+li.github_com			{ background-image: url(http://github.com/favicon.ico); }
+li.git-scm_com			{ background-image: url(http://git-scm.com/favicon.png); }
 
 /* ---- MINE ---- */
 
-li.blog.iqandreas.com 	{ background-image: url(http://blog.iqandreas.com/favicon.png); }
-li.www.iqandreas.com 	{ background-image: url(http://www.iqandreas.com/favicon.png); }
+li.blog_iqandreas_com 	{ background-image: url(http://blog.iqandreas.com/favicon.png); }
+li.www_iqandreas_com 	{ background-image: url(http://www.iqandreas.com/favicon.png); }
 

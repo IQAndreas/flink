@@ -1,9 +1,9 @@
 @import url(main.css);
 
-li.stackexchange.com		{ background-image: url(http://cdn.sstatic.net/stackexchange/img/favicon.ico); }
-li.stackoverflow.com		{ background-image: url(http://cdn.sstatic.net/stackoverflow/img/favicon.ico); }
-li.meta.stackoverflow.com	{ background-image: url(http://meta.stackoverflow.com/content/stackoverflowmeta/img/favicon.ico); }
-li.askubuntu.com			{ background-image: url(http://cdn.sstatic.net/askubuntu/img/favicon.ico); }
-li.gaming.stackexchange.com	{ background-image: url(http://cdn.sstatic.net/gaming/img/favicon.ico); }
+li.stackexchange_com		{ background-image: url(http://cdn.sstatic.net/stackexchange/img/favicon.ico); }
+li.stackoverflow_com		{ background-image: url(http://cdn.sstatic.net/stackoverflow/img/favicon.ico); }
+li.meta_stackoverflow_com	{ background-image: url(http://meta.stackoverflow.com/content/stackoverflowmeta/img/favicon.ico); }
+li.askubuntu_com			{ background-image: url(http://cdn.sstatic.net/askubuntu/img/favicon.ico); }
+li.gaming_stackexchange_com	{ background-image: url(http://cdn.sstatic.net/gaming/img/favicon.ico); }
 
 
