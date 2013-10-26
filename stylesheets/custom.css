@@ -1,0 +1,14 @@
+@import url(main.css);
+
+/* ---- CUSTOM ---- */
+
+li.kirupa.com			{ background-image: url(http://kirupa.com/orange.ico); }
+li.jacksondunstan.com	{ background-image: url(http://jacksondunstan.com/favicon.ico); }
+li.kernel.org 			{ background-image: url(http://www.kernel.org/favicon.ico); }
+li.github.com			{ background-image: url(http://github.com/favicon.ico); }
+
+/* ---- MINE ---- */
+
+li.blog.iqandreas.com 	{ background-image: url(http://blog.iqandreas.com/favicon.png); }
+li.www.iqandreas.com 	{ background-image: url(http://www.iqandreas.com/favicon.png); }
+
