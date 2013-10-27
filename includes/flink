@@ -1,1 +1,1 @@
-<li class="flink {{ include.site }}"><a href="{{ include.url }}">{{ include.title }}</a></li>
+<li class="flink {{ include.site | replace: '.', '_' }}"><a href="{{ include.url }}">{{ include.title }}</a></li>
