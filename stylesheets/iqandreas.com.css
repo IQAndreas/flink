@@ -1,0 +1,10 @@
+@import url(main.css);
+
+/* ---- IQAndreas.com ---- */
+li.iqandreas_com			{ background-image: url(http://www.iqandreas.com/favicon.png); }
+li.www_iqandreas_com		{ background-image: url(http://www.iqandreas.com/favicon.png); }
+li.static_iqandreas_com		{ background-image: url(http://static.iqandreas.com/favicon.png); }
+li.api_iqandreas_com		{ background-image: url(http://api.iqandreas.com/favicon.png); }
+li.blog_iqandreas_com		{ background-image: url(http://blog.iqandreas.com/favicon.png); }
+li.minecraft_iqandreas_com	{ background-image: url(http://minecraft.iqandreas.com/favicon.png); }
+
