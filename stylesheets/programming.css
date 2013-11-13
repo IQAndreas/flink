@@ -1,15 +1,9 @@
 @import url(main.css);
 
-/* ---- CUSTOM ---- */
-
+/* ---- Programming and web development ---- */
 li.kirupa_com			{ background-image: url(http://kirupa.com/orange.ico); }
 li.jacksondunstan_com	{ background-image: url(http://jacksondunstan.com/favicon.ico); }
-li.kernel_org 			{ background-image: url(http://www.kernel.org/favicon.ico); }
+li.kernel_org 			{ background-image: url(https://www.kernel.org/theme/images/logos/favicon.png); }
 li.github_com			{ background-image: url(http://github.com/favicon.ico); }
 li.git-scm_com			{ background-image: url(http://git-scm.com/favicon.png); }
-
-/* ---- MINE ---- */
-
-li.blog_iqandreas_com 	{ background-image: url(http://blog.iqandreas.com/favicon.png); }
-li.www_iqandreas_com 	{ background-image: url(http://www.iqandreas.com/favicon.png); }
 
