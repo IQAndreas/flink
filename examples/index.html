@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+
+    <meta charset='utf-8' />
+    <title>GitHub Pages Jekyll Template</title>
+    <link rel="stylesheet" type="text/css"  href="http://www.iqandreas.com/flink/stylesheets/all.css" />
+
+  </head>
+  <body>
+    <p>The FLink library makes your links fancy with a little favicon next to them! Like this:</p>
+
+<p><li class="flink com github_com"><a href="https://github.com/IQAndreas/flink">GitHub: IQAndreas/flink</a></li>
+<li class="flink com twitter_com"><a href="https://twitter.com/IQAndreas">@IQAndreas on Twitter</a></li></p>
+
+<p>See the README for more information:</p>
+
+<p><li class="flink com github_com"><a href="https://github.com/IQAndreas/flink/blob/master/README.md">README.md</a></li></p>
+
+<p>Here are some code examples for how to use the library.</p>
+
+<h3>Example CSS Import</h3>
+<div class="highlight"><pre><code class="html language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type=</span><span class="s">&quot;text/css&quot;</span>  <span class="na">href=</span><span class="s">&quot;http://www.iqandreas.com/flink/stylesheets/all.css&quot;</span> <span class="nt">/&gt;</span>
+</code></pre></div>
+<h3>Example HTML 1</h3>
+<div class="highlight"><pre><code class="html language-html" data-lang="html"><span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;flink gaming_stackexchange_com&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://gaming.stackexchange.com/a/123883/17179&quot;</span><span class="nt">&gt;</span>MineCraft: Is there a way to keep Zombie Pigmen off of minecart tracks?<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+</code></pre></div>
+<h5>Result</h5>
+
+<p><li class="flink gaming_stackexchange_com"><a href="http://gaming.stackexchange.com/a/123883/17179">MineCraft: Is there a way to keep Zombie Pigmen off of minecart tracks?</a></li></p>
+
+<h3>Example HTML 2</h3>
+<div class="highlight"><pre><code class="html language-html" data-lang="html">Our business uses the following social media sites:
+<span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;flink youtube_com&quot;</span><span class="nt">&gt;</span>FooProductions<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;flink facebook_com&quot;</span><span class="nt">&gt;</span>FooFanpage<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;flink google_com&quot;</span><span class="nt">&gt;</span>FooProductions+<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;flink skype_com&quot;</span><span class="nt">&gt;</span>BobFoomaker<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div>
+<h5>Result</h5>
+
+<div>Our business uses the following social media sites:
+<ul>
+    <li class="flink youtube_com">FooProductions</li>
+    <li class="flink facebook_com">FooFanpage</li>
+    <li class="flink google_com">FooProductions+</li>
+    <li class="flink skype_com">BobFoomaker</li>
+</ul>
+</div>
+
+<h3>Example include use</h3>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">{% include flink site=&quot;twitter.com&quot; title=&quot;Twitter: Unicode Unsortium&quot; url=&quot;https://twitter.com/FakeUnicode&quot; %}
+</code></pre></div>
+<h5>Result</h5>
+
+<p><li class="flink twitter_com"><a href="https://twitter.com/FakeUnicode">Twitter: Unicode Unsortium</a></li></p>
+
+<h3>Example plugin use</h3>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">{% flink http://www.youtube.com/watch?v=Bt9zSfinwFA &quot;Vertical Video Syndrome - A PSA&quot; %}
+</code></pre></div>
+<h5>Result</h5>
+
+<p><li class="flink com youtube_com www_youtube_com"><a href="http://www.youtube.com/watch?v=Bt9zSfinwFA">Vertical Video Syndrome - A PSA</a></li></p>
+
+  </body>
+</html>
